@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+    </script>
+    <form id="myform"action="/myWeb/user/add" method="get">
+        <table border="2px" align="center">
+            <tr>
+                <td>用户姓名</td>
+                <td><input type="text" maxlength="14" name="username" id="username"></td>
+            </tr>
+            <tr>
+                <td>用户密码</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>确定密码</td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td>用户性别</td>
+                <td align="center">
+                    <input type="radio" name="sex" id="sex1" value="男">男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="sex" id="sex2" value="女">女
+                </td>
+
+            </tr>
+            <tr>
+                <td>用户邮箱</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" id="button" value="注册"></td>
+                <td><input type="reset" value="清空"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
